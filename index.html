@@ -18,8 +18,12 @@
 				<div class="burger__row burger__row-2"></div>
 				<div class="burger__row burger__row-3"></div>
 			</button>
+			<div class="header__item divider divider-1"></div>
 			<img src="img\logo.svg" alt="Логотип компании CPS" class="header__item logo">
-			<div class="header__item divider"></div>
+			<button class="header__item icon call"></button>
+			<button class="header__item icon chat"></button>
+			<button class="header__item icon profile"></button>
+			<div class="header__item divider divider-2"></div>
 			<button class="header__item icon repair"></button>
 			<button class="header__item icon checkstatus"></button>
 		</header>
@@ -39,20 +43,37 @@
 				</ul>
 			</nav>
 			<article class="about">
-				<span class="about__text">
-					Мы являемся авторизованным<br>
-					сервисным центром по ремонту техники<br>
-					Dell. Только у нас вы можете<br>
-					отремонтировать свой ноутбук Dell с <br>
-					официальной гарантией производителя.
-				</span>
-				<div class="about__button-wrapper">
+				<div class="about__container">
+					<span class="about__text">
+						<span class="about__text-part1 about__text-version-for-320px">
+							Мы являемся авторизованным<br>
+							сервисным центром по ремонту техники<br>
+							Dell. Только у нас вы можете<br>
+							отремонтировать свой ноутбук Dell с <br>
+							официальной гарантией производителя.
+						</span>
+						<span class="about__text-part1 about__text-version-for-720px">
+							Мы являемся авторизованным сервисным <br>
+							центром по ремонту техники Dell. Только у нас <br>
+							вы можете отремонтировать свой ноутбук<br>
+							Dell с официальной гарантией<br>
+							производителя.
+						</span>
+						<span class="about__text-part2">
+							<br>
+							Мы успешно работаем с 1992 года и <br>
+							заслужили репутацию надежного партнера.
+						</span>
+					</span>
 					<label for="expand-button" class="about__label">
 						<button type="button" class="about__expand-button" id="expand-button"></button>
 						<span class="about__button-text">Читать далее</span></label>
 				</div>
+				<img src="img/main-picture.jpg" alt="Фотография логотипа компании CPS"
+					class="about__image about__image-320px">
+				<img src="img/main-picture-768px.jpg" alt="Фотография логотипа компании CPS"
+					class="about__image about__image-768px">
 			</article>
-			<img src="img/main-picture.jpg" alt="Фотография логотипа компании CPS">
 		</main>
 	</div>
 </body>
