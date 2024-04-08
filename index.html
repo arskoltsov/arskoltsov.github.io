@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<button type="button" class="header__item icon burger">
+				<div class="burger__row burger__row-1"></div>
+				<div class="burger__row burger__row-2"></div>
+				<div class="burger__row burger__row-3"></div>
+			</button>
+			<img src="img\logo.svg" alt="Логотип компании CPS" class="header__item logo">
+			<div class="header__item divider"></div>
+			<button class="header__item icon repair"></button>
+			<button class="header__item icon checkstatus"></button>
+		</header>
+		<main class="main">
+			<section class="main__services services">
+				<div class="services__highlighter"></div>
+				<span class="services__text">Услуги и сервисы</span>
+			</section>
+			<nav class="navigation">
+				<ul class="navigation__menu-list">
+					<li class="menu-list__item"><button type="button">Ремонтируемые устройства</button></li>
+					<li class="menu-list__item"><button type="button">Дополнительные услуги</button></li>
+					<li class="menu-list__item"><button type="button">Цены на услуги</button></li>
+					<li class="menu-list__item"><button type="button">Специальные цены</button></li>
+					<li class="menu-list__item"><button type="button">Адреса сервисных центров</button></li>
+					<li class="menu-list__item"><button type="button">Отзывы</button></li>
+				</ul>
+			</nav>
+			<article class="about">
+				<span class="about__text">
+					Мы являемся авторизованным<br>
+					сервисным центром по ремонту техники<br>
+					Dell. Только у нас вы можете<br>
+					отремонтировать свой ноутбук Dell с <br>
+					официальной гарантией производителя.
+				</span>
+				<div class="about__button-wrapper">
+					<label for="expand-button" class="about__label">
+						<button type="button" class="about__expand-button" id="expand-button"></button>
+						<span class="about__button-text">Читать далее</span></label>
+				</div>
+			</article>
+			<img src="img/main-picture.jpg" alt="Фотография логотипа компании CPS">
+		</main>
+	</div>
+</body>
+
+</html>
